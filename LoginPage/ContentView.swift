@@ -26,7 +26,7 @@ struct ContentView: View {
                     .background(.orange)
                     .cornerRadius(8)
             }
-            Spacer()
+            Spacer() 
             Toggle(isOn: $ToggleOn, label: {
                 HStack {
                     Image(systemName: "faceid")
