@@ -2,6 +2,7 @@
 //  ContentView.swift
 //  Memorize
 //
+
 //  Created by Arturo Burigo on 12/12/22.
 //
 
@@ -12,6 +13,11 @@ struct ContentView: View {
     @State var emojiCount = 4
      
     var body: some View {
+        
+        
+        var emojis = ["🚗","🚕","🚙","🚌","🚎","🏎️","🚓","🚑","🚒","🚐","🛻","🚚","🚛","🚜","🛵","🏍️","🛺","🚔","🚍","🚘","🚁","🚡","🚠","🚝"]
+        
+        
         VStack {
             ScrollView {
                 LazyVGrid(columns:[GridItem(.adaptive(minimum:80))]){
