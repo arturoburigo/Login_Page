@@ -4,6 +4,7 @@
 //
 //  Created by Arturo Burigo on 12/16/22.
 // This is a Model
+ 
 
 import Foundation
 
