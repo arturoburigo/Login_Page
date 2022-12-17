@@ -4,6 +4,7 @@
 //
 //  Created by Arturo Burigo on 12/16/22.
 // This is a Model
+//
 
 import Foundation
 
@@ -11,7 +12,7 @@ struct MemoryGame<CardContent> {
     private(set) var cards: Array<Card>
     
     func choose(_ card: Card) {
-        
+         
     }
     
     init(numberOfPairsOfCards: Int, createCardContent: (Int) -> CardContent) {
